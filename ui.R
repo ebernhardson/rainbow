@@ -39,11 +39,7 @@ sidebar <- dashboardSidebar(
              menuSubItem(text = "Summary", tabName = "failure_rate"),
              menuSubItem(text = "Search Type Breakdown", tabName = "failure_breakdown"),
              menuSubItem(text = "Search Suggestions", tabName = "failure_suggestions")
-    ) #,
-    # menuItem(text = "Build-A-Plot™",
-    #          tabName = "build_a_plot",
-    #          badgeLabel = "experimental",
-    #          badgeColor = "fuchsia")
+    )
   )
 )
 
